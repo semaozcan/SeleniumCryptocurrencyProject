@@ -12,25 +12,24 @@ This project is developed to automate certain actions on the Binance cryptocurre
 
 ## Installation
 1. Clone the project:
+```sh
+git clone https://github.com/semaozcanys/SeleniumCryptocurrencyProject.git
+```
 
 ## Test Cases
-1 - BinanceAvaxTest:
+### 1) BinanceAvaxTest:
   * Go to the Binance main page.
-    
     * Expected Outcome: The Binance main page should be successfully loaded.
-  
   * Click on the Markets menu and select Market Overview.
-    
     * Expected Outcome: The Market Overview page should be opened.
-  
   * Find and click on AVAX/USDT from the Spot-Margin Markets > USDT list.
-  
     * Expected Outcome: The AVAX/USDT page should be opened.
   * Verify that the page is opened correctly. 
     * Expected Outcome: The AVAX/USDT page should be displayed without any errors.
   
 
-2 - BinanceInvalidLoginTest:
+### 2) BinanceInvalidLoginTest:
+
   * Go to the Binance main page.
     * Expected Outcome: The Binance main page should be successfully loaded.
   * Click on Spot from the Buy-Sell menu.
@@ -39,10 +38,9 @@ This project is developed to automate certain actions on the Binance cryptocurre
     * Expected Outcome: The login page should be opened.
   * Attempt to login with incorrect credentials and verify the error message.
     * Expected Outcome: An error message should be displayed indicating incorrect login information.
-
-
-
-3 - BinanceRandomLinksTest:
+   
+      
+### 3) BinanceRandomLinksTest:
       
 * Go to the Binance main page.
     * Expected Outcome: The Binance main page should be successfully loaded.
@@ -50,7 +48,7 @@ This project is developed to automate certain actions on the Binance cryptocurre
     * Expected Outcome: Each clicked link should open a page without any errors.
       
 
-4 - BinanceGetDataToExcelTest:
+### 4) BinanceGetDataToExcelTest:
 
 * Go to the Binance main page.
   * Expected Outcome: The Binance main page should be successfully loaded.
